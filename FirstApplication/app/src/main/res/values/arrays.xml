@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="natureImageIcons">
+        <item>@drawable/nature</item>
+        <item>@drawable/nature_image2</item>
+        <item>@drawable/nature_image3</item>
+        <item>@drawable/nature_image4</item>
+    </array>
+
+    <array name="colors">
+        <item>@color/black</item>
+        <item>@color/purple_200</item>
+        <item>@color/teal_200</item>
+        <item>@color/white</item>
+        <item>@color/purple_700</item>
+    </array>
+</resources>

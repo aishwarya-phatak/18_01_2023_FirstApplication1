@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">FirstApplication</string>
+    <string name="pravin">Pravin</string>
+    <string name="attarkar">Attarkar</string>
+    <string name="english">English</string>
+    <string name="maths">Maths</string>
+    <string name="physics">Physics</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="studentNames">
+        <item>Durgesh</item>
+        <item>Gauri</item>
+        <item>Pravin</item>
+        <item>Sukhada</item>
+        <item>Nikhil</item>
+    </string-array>
 </resources>

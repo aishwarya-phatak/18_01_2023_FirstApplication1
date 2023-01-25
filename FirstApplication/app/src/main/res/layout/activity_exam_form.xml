@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Pravin"
+        android:text="@string/pravin"
         android:textColor="@color/purple_200"
         android:textSize="20sp" />
 
@@ -36,7 +36,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Attarkar"
+        android:layout_marginBottom="10dp"
+        android:text="@string/attarkar"
         android:textColor="@color/black"
         android:textSize="16sp" />
 
@@ -49,23 +50,22 @@
 
         <TextView
             android:id="@+id/txtSubject1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/myCustomStyle_textView"
             android:layout_marginRight="10dp"
-            android:text="English" />
+            android:text="@string/english" />
 
         <TextView
             android:id="@+id/txtSubject2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:text="Maths" />
+            android:text="@string/maths" />
 
         <TextView
             android:id="@+id/txtSubject3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Physics" />
+            android:text="@string/physics" />
 
     </LinearLayout>
 
@@ -80,13 +80,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:text="Male" />
+            android:text="@string/male" />
 
         <RadioButton
             android:id="@+id/rdBtnFemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Female" />
+            android:text="@string/female" />
     </RadioGroup>
 
     <TextView
@@ -103,7 +103,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Submit"
+        android:text="@string/submit"
         android:textColor="@color/black"
         android:textSize="16dp" />
 </LinearLayout>
